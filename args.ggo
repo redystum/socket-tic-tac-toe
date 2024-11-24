@@ -1,0 +1,9 @@
+package "tic_tac_toe"
+version "1.0"
+purpose "Multiplayer Tic-Tac-Toe game using sockets"
+description "This program allows you to play a multiplayer Tic-Tac-Toe game over a network using sockets. You can either host a game or join as a client."
+versiontext "Multiplayer Tic-Tac-Toe version 1.0"
+
+option  "ip"      i  "IP address of the host"       string  optional
+option  "host"    h  "Be the host"                  flag off
+option  "client"  c  "Be the client"                flag off
